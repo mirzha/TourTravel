@@ -1,0 +1,79 @@
+table {  
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 1200px; 
+    border-collapse: 
+    collapse; border-spacing: 0; 
+    align-content: center;
+}
+
+td, th {  
+    border: 1px solid transparent; /* No more visible border */
+    height: 30px; 
+    transition: all 0.3s;  /* Simple transition for hover effect */
+}
+
+th {  
+    background: #DFDFDF;  /* Darken header a bit */
+    font-weight: bold;
+}
+
+td {  
+    background: #FAFAFA;
+    text-align: center;
+}
+
+/* Cells in even rows (2,4,6...) are one color */        
+tr:nth-child(even) td { background: #F1F1F1; }   
+
+/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
+tr:nth-child(odd) td { background: #FEFEFE; }  
+
+tr td:hover { background: #666; color: #FFF; }  
+/* Hover cell effect! */
+
+ .button{
+        display: block;
+        width: 100px;
+        margin: 20px;
+        padding: 10px;
+        box-shadow: 1px 1px 2px #8899a9;
+        border-radius: 10%;
+        text-align: center;
+      }
+
+      .tombol1{
+        background-color: #00ffff;
+      }
+
+      .tombol1:hover{
+        background-color: rgba(28, 114, 44, 0.3);
+      }
+
+      .tombol2{
+        background-color: #FFFF00;
+        width: 70px;
+        margin: 20px;
+        padding: 7px;
+      }
+
+      .tombol2:hover{
+        background-color: rgba(191, 165, 251, 0.4);
+      }
+
+      .tombol3{
+        background-color: #ff3333;
+      }
+
+      .tombol3:hover{
+        background-color: rgba(0, 135, 173, 0.4);
+      }
+
+      a{
+        text-decoration: none;
+        color: black;
+      }
+
+      li{
+        list-style: none;
+      }
